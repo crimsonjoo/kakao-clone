@@ -8,7 +8,7 @@
       src="https://kit.fontawesome.com/67de00e73b.js"
       crossorigin="anonymous"
     ></script>
-    <title>Index / Kakao Clone</title>
+    <title>Friends / Kakao Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -26,35 +26,48 @@
     </div>
     <header class="header">
       <div class="header__header-column">
-        <h1 class="header-title">Chats</h1>
+        <h1 class="header-title">Friends</h1>
       </div>
       <div class="header__header-column">
         <span class="header__icons">
           <i class="fas fa-search"></i>
         </span>
-        <span class="header__icons">
-          <i class="far fa-comment"></i>
-        </span>
+
         <span class="header__icons">
           <i class="fas fa-cog"></i>
         </span>
       </div>
     </header>
-    <main class="index">
-      <ul class="index__list">
-        <li class="index__chat">
-          <a href="chat.html" class="index__move-chat">
-            <div class="index__column">
-              <img src="images/cat.jpg" class="index__avatar g-avatar" />
-              <div class="index__content">
-                <span class="index__username">Crying Cat</span>
-                <span class="index__previewchat">Going home</span>
-              </div>
-            </div>
-            <div class="index__column">
-              <span class="index__timestamp">Yesterday</span>
-            </div></a
-          >
+    <main class="friends">
+      <header class="friends__header">
+        <div class="friends__column">
+          <img src="images/cat.jpg" class="g-avatar friend__avatar" />
+          <div class="friend_content">
+            <span class="friend--name">Nicolas</span>
+            <span class="friend--status">nomadcoders.co</span>
+          </div>
+        </div>
+      </header>
+      <div class="friends__plus">
+        <h5 class="friend__plus">Plus Friend</h5>
+        <img src="images/cat.jpg" class="friend__plusfriend--img" />
+        <span class="friends__plus-friend">Plus Friend</span>
+      </div>
+      <ul class="friends__lists">
+        <h5 class="friend--amounts">Friends 14</h5>
+        <li class="friends__friend">
+            <div class="friends__column">
+                <img src="images/cat.jpg" class="g-avatar friend__avatar" />
+                <div class="friend_content">
+                  <span class="friend--name">Nicolas</span>
+                  <span class="friend--status">nomadcoders.co</span>
+                </div>
+          <div class="friend__column">
+            <span>
+              FT Island(FT.Crimson)
+            </span>
+            <i class="fas fa-play"></i>
+          </div>
         </li>
       </ul>
     </main>
@@ -62,12 +75,12 @@
       <ul class="nav__list">
         <li class="nav__list-items">
           <a href="friends.html" class="nav__list-link"
-            ><i class="far fa-user"></i
+            ><i class="fas fa-user"></i
           ></a>
         </li>
         <li class="nav__list-items">
           <a href="index.html" class="nav__list-link"
-            ><i class="fas fa-comment"></i
+            ><i class="far fa-comment"></i
           ></a>
         </li>
         <li class="nav__list-items">

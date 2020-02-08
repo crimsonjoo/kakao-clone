@@ -8,7 +8,7 @@
       src="https://kit.fontawesome.com/67de00e73b.js"
       crossorigin="anonymous"
     ></script>
-    <title>Index / Kakao Clone</title>
+    <title>Find / Kakao Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -26,37 +26,50 @@
     </div>
     <header class="header">
       <div class="header__header-column">
-        <h1 class="header-title">Chats</h1>
+        <h1 class="header-title">Find</h1>
       </div>
       <div class="header__header-column">
         <span class="header__icons">
           <i class="fas fa-search"></i>
         </span>
-        <span class="header__icons">
-          <i class="far fa-comment"></i>
+        
         </span>
         <span class="header__icons">
           <i class="fas fa-cog"></i>
         </span>
       </div>
     </header>
-    <main class="index">
-      <ul class="index__list">
-        <li class="index__chat">
-          <a href="chat.html" class="index__move-chat">
-            <div class="index__column">
-              <img src="images/cat.jpg" class="index__avatar g-avatar" />
-              <div class="index__content">
-                <span class="index__username">Crying Cat</span>
-                <span class="index__previewchat">Going home</span>
-              </div>
-            </div>
-            <div class="index__column">
-              <span class="index__timestamp">Yesterday</span>
-            </div></a
-          >
-        </li>
-      </ul>
+    <main class="main">
+        <header class="find__header">
+            <ul class="find__header--lists">
+                <li class="find__header--list">
+                    <i class="fas fa-qrcode fa-2x"></i>
+                    <span>QR Code</span>
+                </li>
+                <li class="find__header--list">
+                    <i class="far fa-address-book fa-2x"></i>
+                    <span>Add by Contacts</span>
+                </li>
+                <li class="find__header--list">
+                    <i class="fas fa-info-circle fa-2x"></i>
+                    <span>Add by ID</span>
+                </li>
+                <li class="find__header--list">
+                    <i class="far fa-envelope fa-2x"></i>
+                    <span>Invite</span>
+            </ul>
+        </header>
+        <ul class="find__recommend">
+            <h5>Recommend Friends</h5>
+            <li class="find__friend">
+                <div class="friends__column">
+                    <img src="images/cat.jpg" class="g-avatar friend__avatar" />
+                    <div class="friend_content">
+                      <span class="friend--name">Nicolas</span>
+                    </div>
+                <div class="friend__column">
+                    <i class="fas fa-user-plus fa-2x"></i>            </li>
+        </ul>
     </main>
     <nav class="nav">
       <ul class="nav__list">
@@ -67,7 +80,7 @@
         </li>
         <li class="nav__list-items">
           <a href="index.html" class="nav__list-link"
-            ><i class="fas fa-comment"></i
+            ><i class="far fa-comment"></i
           ></a>
         </li>
         <li class="nav__list-items">
