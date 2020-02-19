@@ -1,0 +1,34 @@
+.find__header {
+  margin-bottom: 30px;
+}
+
+.find__header .find__header--lists {
+  display: flex;
+  justify-content: space-around;
+}
+
+.find__header--lists .find__header--list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.find__header--list i {
+  margin-bottom: 10px;
+}
+
+.find__recommend {
+  padding-top: 10px;
+  border-top: 1px solid gray;
+}
+
+.find__recommend h5 {
+  margin-bottom: 10px;
+}
+
+.index__column .plusbtn {
+  background-color: #e9eae2;
+  padding: 8px 12px;
+  border-radius: 5px;
+}

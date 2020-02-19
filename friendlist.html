@@ -27,7 +27,7 @@
     </div>
     <header class="header">
       <div class="header__header-column">
-        <h1 class="header-title">Chats</h1>
+        <h1 class="header-title">Friends</h1>
       </div>
       <div class="header__header-column">
         <span class="header__icons">
@@ -41,21 +41,50 @@
         </span>
       </div>
     </header>
-    <main class="index">
-      <ul class="index__lists">
-        <li class="index__list ">
-          <a href="chat.html" class="index__move-chat basic-line">
-            <div class="index__column">
-              <img src="images/cat.jpg" class="index__avatar g-avatar" />
-              <div class="index__content">
-                <span class="index__username">Crying Cat</span>
-                <span class="index__previewchat">Going home</span>
-              </div>
+    <main class="friendlist">
+      <header class="friendlist__list basic-line">
+        <div class="index__column">
+          <img src="images/cat.jpg" class="index__avatar g-avatar" />
+          <div class="index__content">
+            <span class="index__username">name(Crying Cat)</span>
+            <span class="index__previewchat"
+              >state message(I trusted you....)</span
+            >
+          </div>
+        </div>
+        <div class="index__column music-box">
+          <div class="music-box box2">
+            <span class="index__timestamp">Song(Title/Artist)</span>
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
+      </header>
+      <div class="friendlist__plusbar">
+        <h5 class="friendlist__plusbar-title">Plus Friend</h5>
+        <div class="friendlist__plusbar-box">
+          <img src="images/cat.jpg" class="index__avatar g-avatar little-img" />
+          <span class="friends__plus-friend">Plus Friend</span>
+        </div>
+      </div>
+      <ul class="friendlist__lists">
+        <h5 class="friendlist__lists-amounts">Friends 14</h5>
+        <li class="basic-line">
+          <div class="index__column">
+            <img
+              src="images/cat.jpg"
+              class="index__avatar g-avatar little-img"
+            />
+            <div class="index__content">
+              <span class="index__username">Crying Cat</span>
+              <span class="index__previewchat">This is for state message</span>
             </div>
-            <div class="index__column">
-              <span class="index__timestamp">Yesterday</span>
-            </div></a
-          >
+          </div>
+          <div class="index__column music-box">
+            <div class="music-box box2">
+              <span class="index__timestamp">Song(Title/Artist)</span>
+              <i class="fas fa-play"></i>
+            </div>
+          </div>
         </li>
       </ul>
     </main>
@@ -63,13 +92,13 @@
       <ul class="nav__list">
         <li class="nav__list-items">
           <a href="friendlist.html" class="nav__list-link"
-            ><i class="far fa-user"></i
+            ><i class="fas fa-user"></i
           ></a>
         </li>
         <li class="nav__list-items">
           <a href="index.html" class="nav__list-link"
             ><div class="nav__badge">8</div>
-            <i class="fas fa-comment"></i
+            <i class="far fa-comment"></i
           ></a>
         </li>
         <li class="nav__list-items">

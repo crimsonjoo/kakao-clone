@@ -1,0 +1,50 @@
+.friendlist__plusbar-box {
+  display: flex;
+  align-items: center;
+}
+
+.friendlist__plusbar-box .friends__plus-friend {
+  font-size: 18px;
+}
+
+.friendlist__list {
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+
+.friendlist__plusbar {
+  padding-top: 8px;
+  padding-bottom: 10px;
+  border-top: 1px solid grey;
+}
+
+.friendlist__plusbar-title {
+  margin-bottom: 8px;
+}
+
+.friendlist__lists {
+  border-top: 1px solid grey;
+  padding-top: 8px;
+}
+
+.friendlist__lists .friendlist__lists-amounts {
+  margin-bottom: 8px;
+}
+
+.music-box .box2 {
+  font-size: 12px;
+  border: 2px solid;
+  border-color: green;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+.index__column.music-box i {
+  margin-left: 5px;
+  font-size: 10px;
+}
+
+.friendlist__plusbar-title,
+.friendlist__lists-amounts {
+  opacity: 0.5;
+}

@@ -1,0 +1,36 @@
+.index__move-chat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.basic-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.basic-line .index__column {
+  display: flex;
+  align-items: center;
+}
+
+.index__content .index__username {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.index__content .index__previewchat {
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+.index__avatar {
+  width: 60px;
+  border-radius: 40%;
+  margin-right: 10px;
+}
+
+.index__avatar.little-img {
+  width: 50px;
+}

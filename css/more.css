@@ -1,0 +1,56 @@
+.more__header {
+  display: flex;
+  flex-direction: column;
+}
+
+.More__header-lists {
+  display: flex;
+  padding-left: 6px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.More__header-lists li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 70px;
+}
+
+.header-icon .icon-name {
+  margin-top: 8px;
+  font-size: 15px;
+}
+
+.more--suggestions {
+  border-top: 1px solid grey;
+}
+
+.more--suggestions h5 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.more--suggestions .more-icons {
+  display: flex;
+  margin-top: 30px;
+}
+
+.more-icons .suggestion-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.suggestion-icon .icon-name {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.suggestion-icon .icon-picutre {
+  background-color: yellow;
+  padding: 10px 10px;
+  border-radius: 10px;
+}

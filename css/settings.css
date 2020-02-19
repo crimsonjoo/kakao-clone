@@ -1,0 +1,29 @@
+.header i {
+  font-size: 20px;
+}
+
+.header__header-column {
+  align-items: center;
+}
+
+.settings__section-menu .settings__menu {
+  margin-bottom: 25px;
+}
+
+.header-title {
+  margin-left: 10px;
+}
+
+.settings {
+  border-top: 1px solid grey;
+  padding-top: 40px;
+}
+
+.settings__menu i {
+  width: 20px;
+}
+
+.icons-name {
+  font-size: 20px;
+  margin-left: 10px;
+}

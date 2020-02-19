@@ -11,70 +11,98 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Best Friend / Kakao Clone</title>
   </head>
-  <body>
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span class="status-bar__clock">20:13</span>
+  <body class="chat-body">
+    <div class="multiheader">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span class="status-bar__clock">20:13</span>
+        </div>
+        <div class="status-bar__column">
+          <i class="fas fa-clock"></i>
+          <i class="fas fa-volume-mute"></i>
+          <i class="fas fa-wifi"></i>
+          <i class="fas fa-ban"></i>
+          <span class="status-bar__battery-level">100%</span>
+          <i class="fas fa-battery-full"></i>
+        </div>
       </div>
-      <div class="status-bar__column">
-        <i class="fas fa-clock"></i>
-        <i class="fas fa-volume-mute"></i>
-        <i class="fas fa-wifi"></i>
-        <i class="fas fa-ban"></i>
-        <span class="status-bar__battery-level">100%</span>
-        <i class="fas fa-battery-full"></i>
-      </div>
-    </div>
-    <header class="header">
-      <div class="header__header-column">
-        <a href="index.html" class="header__header-backbtn"><i class="fas fa-arrow-left"></i></a>
-        <h1 class="header-title">Best Friend</h1>
-      </div>
-      <div class="header__header-column">
-        <span class="header__icons">
-          <i class="fas fa-search"></i>
+      <header class="header">
+        <div class="header__header-column">
+          <a href="index.html" class="header__header-backbtn"
+            ><i class="fas fa-arrow-left"></i
+          ></a>
+          <h1 class="header-title">Best Friend</h1>
+        </div>
+        <div class="header__header-column">
+          <span class="header__icons">
+            <i class="fas fa-search"></i>
+          </span>
           <span class="header__icons">
             <i class="fas fa-bars"></i>
           </span>
-        </span>
-      </div>
-    </header>
-    <main class="chat">
+        </div>
+      </header>
+    </div>
+
+    <main class="chat-screen">
       <ul class="chat__section-menu">
         <span class="chat__timestamp">Friday,January,11,2019</span>
-        <li class="incoming-message">
-          <img src="images/cat.jpg" class="g-avatar incoming-message" />
-          <div class="incoming-message column">
-            <span class="message-author">Best Friend</span>
-            <div class="message-content">Congratulation your engagement</span>
+        <li class="index__lists-list chat__box">
+          <div class="index__column only-chatting">
+            <img
+              src="images/cat.jpg"
+              class="index__avatar g-avatar only-chatting"
+            />
+            <div class="index__content only-chatting">
+              <span class="index__username only-chatting">Best friend</span>
+              <div class="index__previewchat-colorbox only-chatting">
+                Congratulation dude
+              </div>
+            </div>
           </div>
-          <span class="message-timestamp"></span>
         </li>
-        <li class="writing-message">
-          <span class="message-timestamp"></span>
+        <li class="chat__writetext">
+          <div class="writing-message column">
+            thanks see you soon
+          </div>
+        </li>
+        <li class="index__lists-list chat__box">
+          <div class="index__column only-chatting">
+            <img
+              src="images/cat.jpg"
+              class="index__avatar g-avatar only-chatting"
+            />
+            <div class="index__content only-chatting">
+              <span class="index__username only-chatting">Best friend</span>
+              <div class="index__previewchat-colorbox only-chatting">
+                Congratulation dude
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="chat__writetext">
           <div class="writing-message column">
             thanks see you soon
           </div>
         </li>
       </ul>
     </main>
-    <div class="chat__write">
-      <div class="chat__wtrite-column">
-        <span class="message-timestamp">
-          <i class="far fa-plus-square"></i>
-        </span>
+    <div class="chat__write--container">
+      <input
+        type="text"
+        class="chat__write-text-bubble"
+        placeholder="send message"
+      />
+      <div class="chat__wtrite-icon left">
+        <i class="far fa-plus-square"></i>
       </div>
-      <div class="chat__write-text">
-        <input
-          type="text"
-          class="chat__write-text-bubble"
-          placeholder="send message"
-        />
-      </div>
-      <div class="chat__write-extra-menu">
+      <div class="chat__wtrite-icon right">
         <i class="far fa-smile"></i>
         <i class="fas fa-microphone-alt"></i>
       </div>
+    </div>
+    <div class="blockscreen">
+      Please make your screen smaller
     </div>
   </body>
 </html>
